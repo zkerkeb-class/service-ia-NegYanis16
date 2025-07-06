@@ -1,0 +1,21 @@
+{
+  "name": "backend-cv-quiz-intelligent",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.1",
+    "nodemon": "^3.1.10",
+    "openai": "^4.30.0",
+    "prom-client": "^15.1.0",
+    "winston": "^3.17.0"
+  }
+}
