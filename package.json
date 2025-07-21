@@ -15,7 +15,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.6.1",
     "nodemon": "^3.1.10",
-    "openai": "^4.30.0",
+    "openai": "^5.10.1",
     "prom-client": "^15.1.0",
     "winston": "^3.17.0"
   }
