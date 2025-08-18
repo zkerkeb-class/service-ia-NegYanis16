@@ -1,5 +1,5 @@
 import axios from 'axios';
-const DB_SERVICE_URL = 'http://localhost:3006/api/v1';
+const DB_SERVICE_URL = 'https://bdd-services-staging-zvtp.onrender.com/api/v1';
 
 // Récupérer la moyenne des notes pour chaque matière de l'utilisateur connecté
 export async function getMoyenneParMatiere(req, res) {
