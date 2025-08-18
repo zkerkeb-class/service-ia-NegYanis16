@@ -4,7 +4,7 @@ import OpenAI from 'openai';
 import logger from '../config/logger.js';
 import { recordQuizRequest, recordQuizGenerationDuration, recordOpenAIRequest, recordOpenAIResponseTime } from '../middlewares/metricsMiddleware.js';
 
-const DB_SERVICE_URL = 'http://localhost:3006/api/v1';
+const DB_SERVICE_URL = 'https://bdd-services-staging-zvtp.onrender.com/api/v1';
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
