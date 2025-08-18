@@ -37,4 +37,4 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   logger.info(`Serveur démarré sur le port ${PORT}`);
   logger.info(`📈 Métriques Prometheus disponibles sur: http://localhost:${PORT}/metrics`);
-}); 
+});

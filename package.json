@@ -5,7 +5,16 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/database.js"
+    ]
   },
   "dependencies": {
     "axios": "^1.10.0",
@@ -18,5 +27,9 @@
     "openai": "^4.30.0",
     "prom-client": "^15.1.0",
     "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.0.5",
+    "jest": "^30.0.5"
   }
 }
