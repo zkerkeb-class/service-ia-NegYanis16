@@ -1,9 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/" # Racine du projet
+    directory: "/"
     schedule:
-      interval: "weekly" # Vérifie chaque semaine
-    open-pull-requests-limit: 5
-    allow:
-      - dependency-type: "all" # production et dev (ex : nodemon)
+      interval: "weekly"
+    target-branch: "develop"
