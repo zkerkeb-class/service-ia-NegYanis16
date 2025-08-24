@@ -12,7 +12,7 @@ const app = express();
 
 // Configuration CORS
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: ['http://localhost:3000', 'https://front-staging-uncl.onrender.com'],
   credentials: true
 }));
 
