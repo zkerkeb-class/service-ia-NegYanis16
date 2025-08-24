@@ -12,7 +12,7 @@ const app = express();
 
 // Configuration CORS
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://front-neg-yanis16-bxt5-okgp8joy1-negyanis16s-projects.vercel.app'],
+  origin: ['http://localhost:3000', 'https://front-neg-yanis16-bxt5.vercel.app'],
   credentials: true
 }));
 
