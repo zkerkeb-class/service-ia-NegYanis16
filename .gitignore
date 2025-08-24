@@ -2,4 +2,12 @@ node_modules/
 .env
 .env.dev
 logs/
-*.log 
+*.log
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Temporary files
+.DS_Store
+Thumbs.db 
